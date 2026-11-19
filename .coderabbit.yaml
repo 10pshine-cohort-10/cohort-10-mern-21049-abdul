@@ -8,4 +8,4 @@ reviews:
       - develop
   path_instructions:
     - path: "**/*"
-      instructions: "Flag missing TypeScript types as HIGH. Flag async/await without try-catch as MEDIUM. Check React component structure and missing prop validation."
+      instructions: "This project uses JavaScript, not TypeScript. Check for clear React component structure, appropriate prop validation when components accept props, and properly handled asynchronous errors."
