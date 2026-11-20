@@ -1,0 +1,35 @@
+#root {
+  min-height: 100vh;
+}
+
+.welcome {
+  box-sizing: border-box;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  min-height: 100vh;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.welcome h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  letter-spacing: -0.05em;
+}
+
+.welcome p {
+  max-width: 34rem;
+  color: #536157;
+  line-height: 1.7;
+}
+
+.welcome .eyebrow {
+  color: #397454;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
